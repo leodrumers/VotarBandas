@@ -5,6 +5,7 @@ import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
 
 class Home extends StatefulWidget {
+  static String routeName = '/home';
   @override
   _HomeState createState() => _HomeState();
 }
