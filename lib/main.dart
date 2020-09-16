@@ -1,6 +1,6 @@
 import 'package:bands/components/routes.dart';
 import 'package:bands/services/socket.dart';
-import 'package:bands/views/status.dart';
+import 'package:bands/views/home.dart';
 import 'package:flutter/material.dart';
 import 'package:provider/provider.dart';
 
@@ -24,7 +24,7 @@ class MyApp extends StatelessWidget {
           primarySwatch: Colors.blue,
           visualDensity: VisualDensity.adaptivePlatformDensity,
         ),
-        initialRoute: StatusPage.routeName,
+        initialRoute: Home.routeName,
         routes: routes,
       ),
     );

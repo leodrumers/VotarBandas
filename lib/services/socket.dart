@@ -9,6 +9,7 @@ class SocketServiceProvider with ChangeNotifier {
 
   ServerStatus get serverStatus => this._serverStatus;
   IO.Socket get socket => _socket;
+  Function get emit => this._socket.emit;
 
   SocketServiceProvider() {
     this._init();
